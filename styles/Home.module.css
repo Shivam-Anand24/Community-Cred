@@ -64,7 +64,7 @@
 }
 
 .card {
-  background-color: #1b2129;
+  background-color: #eaeaea;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -80,8 +80,9 @@
 .card:focus,
 .card:active {
   background-color: #272c34;
-  color: #0ea5e9;
-  border-color: #0ea5e9;
+  color: #ff00f4;
+  border-color: #ff00f4;
+  border-width: 2px;
 }
 
 .card h2 {

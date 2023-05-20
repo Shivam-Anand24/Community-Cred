@@ -6,33 +6,29 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://thirdweb.com/">thirdweb</a>!
+          Welcome to <a href="">Community Cred</a>!
         </h1>
 
         <p className={styles.description}>
-          Get started by configuring your desired network in{" "}
-          <code className={styles.code}>pages/_app.js</code>, then modify the{" "}
-          <code className={styles.code}>pages/index.js</code> file!
+          Empowering and Rewarding Positive Impact in Your Local Area
         </p>
 
-        <div className={styles.connect}>
-          <ConnectWallet />
-        </div>
+        <div className={styles.connect}></div>
 
         <div className={styles.grid}>
           <a href="https://portal.thirdweb.com/" className={styles.card}>
-            <h2>Portal &rarr;</h2>
+            <h2>Earn Reward Points &rarr;</h2>
             <p>
-              Guides, references and resources that will help you build with
-              thirdweb.
+              Engage in community activities, support local businesses, and
+              volunteer to earn reward points.
             </p>
           </a>
 
           <a href="https://thirdweb.com/dashboard" className={styles.card}>
-            <h2>Dashboard &rarr;</h2>
+            <h2>Exclusive Impact NFTs &rarr;</h2>
             <p>
-              Deploy, configure and manage your smart contracts from the
-              dashboard.
+              Collect unique NFTs that represent your contributions to the
+              community, unlocking special benefits.
             </p>
           </a>
 
@@ -40,9 +36,10 @@ export default function Home() {
             href="https://portal.thirdweb.com/templates"
             className={styles.card}
           >
-            <h2>Templates &rarr;</h2>
+            <h2>Powerful Community &rarr;</h2>
             <p>
-              Discover and clone template projects showcasing thirdweb features.
+              Discover and connect with like minded individuals who want to make
+              an help the community.
             </p>
           </a>
         </div>
