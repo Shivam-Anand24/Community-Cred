@@ -5,10 +5,9 @@ const community = () => {
   return (
     <div className="p-8 pt-12">
       <div className="grid grid-cols-2 gap-4">
-        <CommunityCard />
-        <CommunityCard />
-        <CommunityCard />
-        <CommunityCard />
+        {nftRewards.map((nftReward, index) => (
+          <CommunityCard image={`/image${index}.svg`} />
+        ))}
       </div>
     </div>
   );
