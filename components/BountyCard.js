@@ -26,6 +26,18 @@ const BountyCard = ({ title, description, bounty, index }) => {
             {title} &nbsp; <i class="fa-solid fa-trophy"></i>
           </h3>
           <p className="py-4">{description}</p>
+
+          <div className="mt-2 mb-8">
+            <strong>Location:</strong>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9048964764866!2d77.59257997605731!3d12.977934314737398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1673e7d0672f%3A0xc62ca5a6e943dfb8!2sCubbon%20Park!5e0!3m2!1sen!2sin!4v1684618580667!5m2!1sen!2sin"
+              width="450"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
           <button className="btn btn-secondary btn-block">Submit</button>
         </label>
       </label>
