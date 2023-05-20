@@ -13,9 +13,22 @@ function MyApp({ Component, pageProps }) {
     <ThirdwebProvider activeChain={HederaTestnet}>
       <div className="navbar bg-primary">
         <div className="flex-1">
-          <a className="text-white normal-case text-xl">
+          <a href="/" className="text-white normal-case text-xl">
             Community Cred &nbsp; <i class="fa-solid fa-crown"></i>
           </a>
+        </div>
+        <div className="flex-1">
+          <ul className="menu menu-horizontal px-1">
+            <li>
+              <a href="/bounties">Bounties</a>
+            </li>
+            <li>
+              <a href="nfts">NFTs</a>
+            </li>
+            <li>
+              <a href="/community">Community</a>
+            </li>
+          </ul>
         </div>
         <div className="flex-none">
           <ConnectWallet theme="light" />
