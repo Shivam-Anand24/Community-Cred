@@ -1,35 +1,27 @@
-## Getting Started
+## 💡 Inspiration
 
-Create a project using this example:
+Community Cred is inspired by the desire to empower and reward individuals who make positive impacts in their local communities. We believe in fostering a sense of belonging, encouraging community engagement, and celebrating the contributions of community members. 🌟
 
-```bash
-npx thirdweb create --template next-javascript-starter
-```
+## 🚀 What it does
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Community Cred is a platform that utilizes a reward points system and NFTs to recognize and celebrate community members' contributions to their local areas. Users can earn points for various community-related actions such as attending events, volunteering, supporting local businesses, or engaging in sustainable practices. These points can be redeemed for unique Community Impact NFTs that represent specific achievements or contributions within the community. The NFTs provide benefits and utility to the holders, such as exclusive access to community events, discounts at local businesses, or special perks within the platform. 🏆🎉
 
-On `pages/_app.js`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+## 🔨 How we built it
 
-### Deploy to IPFS
+We built Community Cred using Next.js, Hedera blockchain, and the Thirdweb framework. Next.js provides a powerful and flexible development environment for building web applications. Hedera blockchain is utilized for storing and verifying the ownership of the Community Impact NFTs, ensuring transparency and immutability. The Thirdweb framework enables seamless integration with Hedera and simplifies the development process. 💻⛓️
 
-Deploy a copy of your application to IPFS using the following command:
+## 🤔 Challenges we ran into
 
-```bash
-yarn deploy
-```
+One of the main challenges we faced was designing and implementing the activity tracking and points system. We had to carefully evaluate the impact and value of different community activities to assign appropriate point values. Additionally, integrating with the Hedera blockchain and ensuring secure storage and trading of NFTs posed its own set of challenges that required thorough testing and implementation. 💪
 
-## Learn More
+## 🏆 Accomplishments that we're proud of
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+We are proud of creating a platform that incentivizes and recognizes positive contributions to local communities. The seamless integration of the reward points system and NFTs, along with the utilization of the Hedera blockchain, ensures a transparent and engaging experience for users. We have successfully built a marketplace for trading Community Impact NFTs, allowing users to create their digital identities within the community. 🙌🎨
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb JavaScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+## 🎓 What we learned
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+During the development process, we gained a deep understanding of integrating blockchain technology, specifically Hedera, into web applications. We also learned about the design considerations for a reward points system and the creation and management of NFTs. Collaborating as a team and effectively utilizing the chosen tech stack enhanced our overall development skills. 📚🧠
 
-## Join our Discord!
+## 🚀 What's next for Community Cred
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+In the future, we plan to expand the features and capabilities of Community Cred. We aim to enhance the user experience by introducing more interactive elements, such as community leaderboards and challenges. Additionally, we want to foster stronger connections within the community by providing a dedicated section for showcasing and appreciating community members' contributions. Continuous improvement, community feedback, and collaboration will drive the future development and growth of Community Cred. 🚀🌱
