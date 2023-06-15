@@ -2,6 +2,7 @@
   "name": "communitycred",
   "version": "0.1.0",
   "private": true,
+  "type": "module",  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,6 +14,7 @@
   "dependencies": {
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
+    "appwrite": "^11.0.0",
     "daisyui": "^2.51.6",
     "ethers": "^5",
     "leaflet": "^1.9.4",
