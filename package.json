@@ -1,7 +1,7 @@
 {
   "name": "communitycred",
   "version": "0.1.0",
-  "private": true, 
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,7 +20,8 @@
     "next": "^13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-leaflet": "^4.2.1"
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.14.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
